@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+
+  mateo_greil_vuejs:
+    container_name: mateo_greil_vuejs
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '8080:8080'
