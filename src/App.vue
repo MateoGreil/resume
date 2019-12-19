@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <div id="app" v-bind:style="{ backgroundColor: color}">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld/>
   </div>
 </template>
 
@@ -12,8 +12,30 @@ export default {
   name: 'app',
   components: {
     HelloWorld
+  },
+  data () {
+    console.log(10000 - window.innerHeight)
+    return {
+      scrollYMax: 10000 - window.innerHeight,
+      shiftY: 255 / (10000 - window.innerHeight),
+      color: 'rgb(255, 255, 255)'
+    }
+  },
+  methods: {
+    handleScroll () {
+      var color = (this.shiftY * (this.scrollYMax - scrollY)).toFixed().toString()
+      this.color = 'rgb(' + color + ', ' + color + ', ' + color + ')'
+      console.log(color)
+    }
+  },
+  created () {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  destroyed () {
+    window.removeEventListener('scroll', this.handleScroll)
   }
 }
+
 </script>
 
 <style>
@@ -24,5 +46,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  height: 20000px;
 }
 </style>
