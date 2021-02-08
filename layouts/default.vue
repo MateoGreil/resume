@@ -57,8 +57,6 @@ html {
 }
 
 .copyright {
-  padding-top: 0;
-  margin-left: 17rem;
   background-color:var(--color-secondary);
   color: var(--color-text-secondary);
   text-align: center;

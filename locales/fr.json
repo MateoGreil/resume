@@ -9,17 +9,16 @@
   },
   "copyright": {
     "madeWith": "Je ne suis pas un designer. Ce projet n'est pas une demo de ce que je suis capable de faire. Fait avec ",
-	"github": ""
+	"github": "https://github.com/ivangreve/nuxt-resume"
   },
   "personalInfo": {
     "name": "Mateo",
     "lastName": "Greil",
     "subHeadingText": [
-      "Software Enginneer",
+      "Fullstack Developer",
       "Back End Developer"
     ],
     "city": "Begles, France",
-    "phoneNumber": "+33 7 66 85 97 91",
     "email": "mat@greil.fr",
     "linkedin": "https://www.linkedin.com/in/mat%C3%A9o-g-19a8ab171/",
     "github": "https://github.com/mateogreil/",
@@ -48,7 +47,7 @@
     "title": "Experiences professionnelles",
     "works": [
       {
-        "position": "Benevolat/Stage Fullstack Developer",
+        "position": "Stage/CDD FullStack Developer",
         "companie": "Ekylibre",
         "responsabilities": [
           "Ameliorer le code existant : optimisation, refactorisation, ajout de test et conteneurisation."
@@ -62,7 +61,7 @@
 		"url": "https://ekylibre.com/"
       },
       {
-        "position": "Stage/CDD FullStack Developer",
+        "position": "Benevolat/Stage Fullstack Developer",
         "companie": "42network",
         "responsabilities": [
           "Développer et maintenir les outils utilisés par tous les campus 42 à l'international.",
@@ -80,6 +79,21 @@
 		],
         "startEndDate": "Septembre 2019 - Juin 2020",
 		"url": "https://www.42.fr/42-network/"
+      },
+      {
+        "position": "Stage Développeur applications mobile",
+        "companie": "EMMANUEL Entreprise",
+        "responsabilities": [
+          "Application destiné a une association pour recevoir des dons",
+          "Application Uber-like"
+        ],
+		"devIcons": [
+	        "devicon-java-plain",
+	        "devicon-swift-plain",
+	        "devicon-android-plain"
+		],
+        "startEndDate": "Novembre 2018 - Juin 2019",
+		"url": "https://www.codeur.com/-eem"
       }
     ]
   },
@@ -126,7 +140,7 @@
       {
         "name": "Table Tennis Counter (@Home)",
 		"nameUrl": "https://github.com/MateoGreil/table-tennis-counter",
-        "description": "Un compteur de match, tournois, etc. de tennis de table. J'ai fait ce projet car je n'en trouvais pas de gratuit et complet sur internet. Comme la plupart de mes projets perso : pas terminé.",
+        "description": "Un compteur de match, tournois, etc. de tennis de table. J'ai fait ce projet car je n'en trouvais pas de gratuit et complet sur internet. Comme la plupart de mes projets perso : pas tout a fait terminé.",
 		"image": "",
         "siteUrl": "https://github.com/MateoGreil/table-tennis-counter"
 	  },
