@@ -1,0 +1,139 @@
+{
+  "links": {
+    "about": "A propos",
+    "education": "Enseignement",
+    "experience": "Experience",
+    "skills": "Skills",
+    "interests": "Interests",
+    "projects": "Projects"
+  },
+  "copyright": {
+    "madeWith": "Je ne suis pas un designer. Ce projet n'est pas une demo de ce que je suis capable de faire. Fait avec ",
+	"github": ""
+  },
+  "personalInfo": {
+    "name": "Mateo",
+    "lastName": "Greil",
+    "subHeadingText": [
+      "Software Enginneer",
+      "Back End Developer"
+    ],
+    "city": "Begles, France",
+    "phoneNumber": "+33 7 66 85 97 91",
+    "email": "mat@greil.fr",
+    "linkedin": "https://www.linkedin.com/in/mat%C3%A9o-g-19a8ab171/",
+    "github": "https://github.com/mateogreil/",
+    "myDescription": "L'école 42 m'a permis, grâce à mon envie d'apprendre, de développer une grande capacité d'adaptation et d'apprentissage. Actuellement en poste, j'ai démontré ma faculté d'adaptation, et ma valeur ajoutée en étant initiateur de changement."
+  },
+  "educationDegrees": {
+    "title": "Enseignement 📕",
+    "degrees": [
+      {
+        "collage": "42 Paris",
+        "name": "Architecte en Technologie du Numérique",
+        "itemList": ["Autonomie", "Peerlearning", "Apprentissage par projets"],
+        "startEndDate": "Septembre 2017 - 2020",
+		"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/42_Logo.svg"
+      },
+      {
+        "collage": "HEC",
+        "name": "Digital Entrepreneurship Certificate",
+        "itemList": ["Economie et Stratégie", "Digital marketing", "Entrepreneurship"],
+        "startEndDate": "Mai 2019",
+		"imageUrl": "https://i.pinimg.com/originals/27/28/7f/27287f1052eff024cdabb59dbbfbfbba.jpg"
+      }
+	]
+  },
+  "workExperiences": {
+    "title": "Experiences professionnelles",
+    "works": [
+      {
+        "position": "Benevolat/Stage Fullstack Developer",
+        "companie": "Ekylibre",
+        "responsabilities": [
+          "Ameliorer le code existant : optimisation, refactorisation, ajout de test et conteneurisation."
+        ],
+		"devIcons": [
+	        "devicon-rails-plain",
+	        "devicon-postgresql-plain",
+	        "devicon-docker-plain"
+		],
+        "startEndDate": "Juillet 2020 - Maintenant",
+		"url": "https://ekylibre.com/"
+      },
+      {
+        "position": "Stage/CDD FullStack Developer",
+        "companie": "42network",
+        "responsabilities": [
+          "Développer et maintenir les outils utilisés par tous les campus 42 à l'international.",
+		  "Intranet et site d'admissions international en RoR, PSQL.",
+          "Application web pour la gestion de l'infrastructure des campus en Flask, AWX (Ansible Tower).",
+		  "Service web pour la gestion des examens en Django, PostgreSQL"
+        ],
+		"devIcons": [
+	        "devicon-rails-plain",
+	        "devicon-postgresql-plain",
+	        "devicon-docker-plain",
+	        "devicon-python-plain",
+	        "devicon-flask-plain",
+	        "devicon-django-plain"
+		],
+        "startEndDate": "Septembre 2019 - Juin 2020",
+		"url": "https://www.42.fr/42-network/"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Competences 🎯",
+    "iconsTitle": "Languages de programmation & Outils",
+    "devIcons": [
+	  "devicon-ruby-plain",
+	  "devicon-c-plain",
+      "devicon-rails-plain",
+      "devicon-postgresql-plain",
+      "devicon-git-plain",
+      "devicon-docker-plain",
+      "devicon-linux-plain",
+      "devicon-macos-plain",
+      "devicon-bash-plain",
+      "devicon-vuejs-plain",
+      "devicon-jira-plain",
+      "devicon-trello-plain",
+      "devicon-gitlab-plain",
+      "devicon-github-plain",
+      "devicon-slack-plain"
+    ],
+    "workflow": "Workflow",
+    "itemList": [
+      "Responsive Design & UX",
+      "Cross Browser Testing & Debugging",
+      "REST API building",
+      "Agile Development & Scrum",
+      "Team working",
+      "Design Patterns"
+    ]
+  },
+  "projects": {
+    "title": "Projets 🧠",
+    "projectsInfo": [
+      {
+        "name": "EkyAgri (@Ekylibre)",
+        "description": "Le logiciel de gestion complète des exploitations agricoles.",
+        "image": "/images/ekylibre.jpg",
+        "siteUrl": "https://demo.ekylibre.farm"
+      },
+      {
+        "name": "Table Tennis Counter (@Home)",
+        "description": "Un compteur de match, tournois, etc. de tennis de table. J'ai fait ce projet car je n'en trouvais pas de gratuit et complet sur internet. Comme la plupart de mes projets perso : pas terminé.",
+		"image": "",
+        "siteUrl": "https://github.com/MateoGreil/table-tennis-counter"
+	  },
+      {
+        "name": "Admissions 42 (@42network)",
+        "description": "Site admissions des candidatures 42network",
+        "image": "/images/admissions42.png",
+        "siteUrl": "https://admissions.42.fr"
+      }
+    ]
+  }
+}
