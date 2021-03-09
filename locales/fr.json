@@ -65,9 +65,9 @@
         "companie": "42network",
         "responsabilities": [
           "Développer et maintenir les outils utilisés par tous les campus 42 à l'international.",
-		  "Intranet et site d'admissions international en RoR, PSQL.",
+	  "Intranet et site d'admissions international en RoR, PSQL.",
           "Application web pour la gestion de l'infrastructure des campus en Flask, AWX (Ansible Tower).",
-		  "Service web pour la gestion des examens en Django, PostgreSQL"
+	  "Service web pour la gestion des examens en Django, PostgreSQL."
         ],
 		"devIcons": [
 	        "devicon-rails-plain",
@@ -116,15 +116,6 @@
       "devicon-gitlab-plain",
       "devicon-github-plain",
       "devicon-slack-plain"
-    ],
-    "workflow": "Workflow",
-    "itemList": [
-      "Responsive Design & UX",
-      "Cross Browser Testing & Debugging",
-      "REST API building",
-      "Agile Development & Scrum",
-      "Team working",
-      "Design Patterns"
     ]
   },
   "projects": {
@@ -132,18 +123,18 @@
     "projectsInfo": [
       {
         "name": "EkyAgri (@Ekylibre)",
-		"nameUrl": "https://github.com/ekylibre/ekylibre",
+	"nameUrl": "https://github.com/ekylibre/ekylibre",
         "description": "Le logiciel de gestion complète des exploitations agricoles.",
         "image": "/images/ekylibre.jpg",
         "siteUrl": "https://demo.ekylibre.farm"
       },
       {
         "name": "Table Tennis Counter (@Home)",
-		"nameUrl": "https://github.com/MateoGreil/table-tennis-counter",
+	"nameUrl": "https://github.com/MateoGreil/table-tennis-counter",
         "description": "Un compteur de match, tournois, etc. de tennis de table. J'ai fait ce projet car je n'en trouvais pas de gratuit et complet sur internet. Comme la plupart de mes projets perso : pas tout a fait terminé.",
-		"image": "",
+	"image": "",
         "siteUrl": "https://github.com/MateoGreil/table-tennis-counter"
-	  },
+      },
       {
         "name": "Admissions 42 (@42network)",
         "nameUrl": "https://admissions.42.fr",

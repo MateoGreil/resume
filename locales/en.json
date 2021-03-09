@@ -1,73 +1,73 @@
 {
   "links": {
-    "about": "A propos",
-    "education": "Enseignement",
+    "about": "About",
+    "education": "Education",
     "experience": "Experience",
     "skills": "Skills",
     "interests": "Interests",
     "projects": "Projects"
   },
   "copyright": {
-    "madeWith": "Je ne suis pas un designer. Ce projet n'est pas une demo de ce que je suis capable de faire. Fait avec ",
-	"github": ""
+    "madeWith": "I'm not a designer. This project is not a demo about my abilities. Made with ",
+    "github": "https://github.com/ivangreve/nuxt-resume"
   },
   "personalInfo": {
     "name": "Mateo",
     "lastName": "Greil",
     "subHeadingText": [
-      "Software Enginneer",
+      "Fullstack Developer",
       "Back End Developer"
     ],
     "city": "Begles, France",
     "email": "mat@greil.fr",
     "linkedin": "https://www.linkedin.com/in/mat%C3%A9o-g-19a8ab171/",
     "github": "https://github.com/mateogreil/",
-    "myDescription": "L'école 42 m'a permis, grâce à mon envie d'apprendre, de développer une grande capacité d'adaptation et d'apprentissage. Actuellement en poste, j'ai démontré ma faculté d'adaptation, et ma valeur ajoutée en étant initiateur de changement."
+    "myDescription": "42 permit me, thanks to my desire to learn, to build a great ability of learning, and of adaptation. Currently in job, I have demonstrated my adaptability, and my added value by being an initiator of change."
   },
   "educationDegrees": {
-    "title": "Enseignement 📕",
+    "title": "Education 📕",
     "degrees": [
       {
         "collage": "42 Paris",
-        "name": "Architecte en Technologie du Numérique",
-        "itemList": ["Autonomie", "Peerlearning", "Apprentissage par projets"],
-        "startEndDate": "Septembre 2017 - 2020",
+        "name": "Digital technology architect",
+        "itemList": ["Autonomy", "Peerlearning", "Project-based learning"],
+        "startEndDate": "September 2017 - 2020",
 		"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/42_Logo.svg"
       },
       {
         "collage": "HEC",
         "name": "Digital Entrepreneurship Certificate",
-        "itemList": ["Economie et Stratégie", "Digital marketing", "Entrepreneurship"],
-        "startEndDate": "Mai 2019",
+        "itemList": ["Economy and Strategy", "Digital marketing", "Entrepreneurship"],
+        "startEndDate": "May 2019",
 		"imageUrl": "https://i.pinimg.com/originals/27/28/7f/27287f1052eff024cdabb59dbbfbfbba.jpg"
       }
 	]
   },
   "workExperiences": {
-    "title": "Experiences professionnelles",
+    "title": "Professional experiences",
     "works": [
       {
-        "position": "Benevolat/Stage Fullstack Developer",
+        "position": "Internship/Fixed-term contract FullStack Developer",
         "companie": "Ekylibre",
         "responsabilities": [
-          "Ameliorer le code existant : optimisation, refactorisation, ajout de test et conteneurisation."
+          "Improve existing code: optimization, refactoring, addition of test and containerization."
         ],
 		"devIcons": [
 	        "devicon-rails-plain",
 	        "devicon-postgresql-plain",
 	        "devicon-docker-plain"
 		],
-        "startEndDate": "Juillet 2020 - Maintenant",
+        "startEndDate": "July 2020 - Now",
 		"url": "https://ekylibre.com/"
       },
       {
-        "position": "Stage/CDD FullStack Developer",
+        "position": "Volunteer/Internship Fullstack Developer",
         "companie": "42network",
         "responsabilities": [
-          "Développer et maintenir les outils utilisés par tous les campus 42 à l'international.",
-		  "Intranet et site d'admissions international en RoR, PSQL.",
-          "Application web pour la gestion de l'infrastructure des campus en Flask, AWX (Ansible Tower).",
-		  "Service web pour la gestion des examens en Django, PostgreSQL"
+          "Develop and maintain the tools used by all 42 campuses internationally.",
+	  "Intranet and international admissions site in RoR, PSQL.",
+          "Web application for campus infrastructure management in Flask, AWX (Ansible Tower).",
+	  "Web service for managing exams in Django, PostgreSQL."
         ],
 		"devIcons": [
 	        "devicon-rails-plain",
@@ -77,14 +77,29 @@
 	        "devicon-flask-plain",
 	        "devicon-django-plain"
 		],
-        "startEndDate": "Septembre 2019 - Juin 2020",
+        "startEndDate": "September 2019 - June 2020",
 		"url": "https://www.42.fr/42-network/"
+      },
+      {
+        "position": "Internship Mobile applications developer",
+        "companie": "EMMANUEL Entreprise",
+        "responsabilities": [
+          "Application intended for an association to receive donations",
+          "Application Uber-like"
+        ],
+		"devIcons": [
+	        "devicon-java-plain",
+	        "devicon-swift-plain",
+	        "devicon-android-plain"
+		],
+        "startEndDate": "November 2018 - June 2019",
+		"url": "https://www.codeur.com/-eem"
       }
     ]
   },
   "skills": {
-    "title": "Competences 🎯",
-    "iconsTitle": "Languages de programmation & Outils",
+    "title": "Skills 🎯",
+    "iconsTitle": "Programming Languages & Tools",
     "devIcons": [
 	  "devicon-ruby-plain",
 	  "devicon-c-plain",
@@ -101,37 +116,38 @@
       "devicon-gitlab-plain",
       "devicon-github-plain",
       "devicon-slack-plain"
-    ],
-    "workflow": "Workflow",
-    "itemList": [
-      "Responsive Design & UX",
-      "Cross Browser Testing & Debugging",
-      "REST API building",
-      "Agile Development & Scrum",
-      "Team working",
-      "Design Patterns"
     ]
   },
   "projects": {
-    "title": "Projets 🧠",
+    "title": "Projects 🧠",
     "projectsInfo": [
       {
         "name": "EkyAgri (@Ekylibre)",
-        "description": "Le logiciel de gestion complète des exploitations agricoles.",
+	"nameUrl": "https://github.com/ekylibre/ekylibre",
+        "description": "The complete farm management software.",
         "image": "/images/ekylibre.jpg",
         "siteUrl": "https://demo.ekylibre.farm"
       },
       {
         "name": "Table Tennis Counter (@Home)",
-        "description": "Un compteur de match, tournois, etc. de tennis de table. J'ai fait ce projet car je n'en trouvais pas de gratuit et complet sur internet. Comme la plupart de mes projets perso : pas terminé.",
-		"image": "",
+	"nameUrl": "https://github.com/MateoGreil/table-tennis-counter",
+        "description": "A match counter, tournaments, etc. table tennis. I did this project because I couldn't find a free and complete one on the internet. Like most of my personal projects: not quite finished.",
+	"image": "",
         "siteUrl": "https://github.com/MateoGreil/table-tennis-counter"
-	  },
+      },
       {
         "name": "Admissions 42 (@42network)",
+        "nameUrl": "https://admissions.42.fr",
         "description": "Site admissions des candidatures 42network",
         "image": "/images/admissions42.png",
         "siteUrl": "https://admissions.42.fr"
+      },
+      {
+        "name": "twitter-mat (@Home)",
+        "nameUrl": "https://github.com/MateoGreil/mat-twitter",
+        "description": "My 'HelloWorld' rails",
+        "image": "",
+        "siteUrl": "https://github.com/MateoGreil/mat-twitter"
       }
     ]
   }
