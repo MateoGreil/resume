@@ -2,14 +2,14 @@
   "links": {
     "about": "A propos",
     "education": "Enseignement",
-    "experience": "Experience",
-    "skills": "Skills",
-    "interests": "Interests",
-    "projects": "Projects"
+    "experience": "Experience pro",
+    "skills": "Competences",
+    "interests": "Interets",
+    "projects": "Projets"
   },
   "copyright": {
     "madeWith": "Je ne suis pas un designer. Ce projet n'est pas une demo de ce que je suis capable de faire. Fait avec ",
-	"github": "https://github.com/ivangreve/nuxt-resume"
+    "github": "https://github.com/ivangreve/nuxt-resume"
   },
   "personalInfo": {
     "name": "Mateo",
